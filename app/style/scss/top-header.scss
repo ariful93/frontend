@@ -1,0 +1,68 @@
+.virtunus__header-top {
+    background: #6a4be4;
+    color: #fff;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+
+    .search-item{
+        flex-basis: 706px;
+        max-width: 706px;
+        position: relative;
+        margin-right: auto;
+
+        form {
+            .search-icon {
+                position: absolute;
+                left: 15px;
+                top: 50%;
+                transform: translateY(-50%);
+
+                i {
+                    font-size: 18px;
+                }
+            }   
+
+            input[type="search"] {
+                width: 100%;
+                background: #7254e5;
+                border: 0;
+                height: 44px;
+                border-radius: 5px;
+                outline: none;
+            }
+        }
+    }
+
+    .logo-item {
+        flex-basis: 454px;
+        max-width: 454px;
+        margin-left: 0;
+        padding-left: 110px;
+
+        img {
+            width: 170px;
+        }
+    }
+
+    .user-profile {
+        flex-basis: 235px;
+        max-width: 235px;
+
+        ul {
+            padding: 0;
+
+            li {
+                list-style: none;
+                display: inline-block;
+                padding: 0px 5px 0px 16px;
+
+                i {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+}

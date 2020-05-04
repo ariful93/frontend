@@ -1,0 +1,25 @@
+.virtunus__left-sidebar{
+    background: #fff;
+    width: 68px;
+    box-shadow: 0px 1px 7px 2px #dddbe7;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    ul {
+        padding: 0;
+        text-align: center;
+
+        li {
+            list-style: none;
+            padding-bottom: 56px;
+
+            img {
+                width: 32px;
+                height: 32px;
+            }
+
+        }
+    }
+}
